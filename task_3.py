@@ -28,4 +28,3 @@ for years, winner in world_champions.items():
         print(country + ' cтановилась чемпионом мира по футболу в 21 веке!')
     else:
         print(country + ' не выигрывала чемпионат мира по футболу в 21 веке')
-        break
