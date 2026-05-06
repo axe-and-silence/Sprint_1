@@ -18,13 +18,10 @@ class TestCase:
  #Метод set_step — добавляет в словарь steps шаг тест-кейса. Принимает два параметра: step_number и step_text. Ключ — это step_number(номер шага), а значение — step_text (текстовое описание шага).
    
     def set_step(self,step_number,step_text):
-        self.step_number = step_number
-        self.step_text = step_text
         self.steps[step_number] = step_text
 
 #Метод delete_step — удаляет шаг из steps по ключу step_number, который передали в метод.
     def delete_step(self, step_number):
-        self.step_number = step_number
         del self.steps[step_number]
 
 #Метод set_result — устанавливает ожидаемый результат. Он помещает его в атрибут result по параметру result, который передали методу.
